@@ -19,7 +19,7 @@ export function search() {
   //finder de produkter der lever op til søgekriterierne
   function searchInput(e) {
     const category = document.querySelector("#category").value;
-    const price = document.querySelector("#priceInput").value;
+    /* const price = document.querySelector("#priceInput").value; */
     const searchTerm = e.target.value.trim().toLowerCase();
 
     if (category == "all") {
